@@ -5,8 +5,32 @@ default_language = "en"
 theme = "devlab-theme"
 compile_sass = true
 build_search_index = true
-generate_feeds = false
+
+author = "Ikey Doherty"
+generate_feeds = true
+feed_filenames = ["atom.xml"]
+taxonomies = [
+  { name = "tags", paginate_by = 10 },
+  { name = "authors", feed = true },
+]
 
 [markdown.highlighting]
 light_theme = "github-light"
 dark_theme = "github-dark"
+
+[extra.devlab.navigation]
+links = [
+    { name = "Home", path = "/" },
+    { name = "Blog", path = "/blog/" }
+]
+
+[extra.devlab.brand]
+logo_text = "TravellingEngineer"
+footer_text = "Ikey Doherty aka the Travelling Engineer"
+
+[extra.devlab.footer]
+links_label = "useful links"
+links = [
+    { name = "github", path = "https://github.com/TravellingEngineer", icon = "github" },
+    { name = "email", path = "mailto:travellingengineer@proton.me", icon = "email" }
+]

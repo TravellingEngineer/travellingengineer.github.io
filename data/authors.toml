@@ -1,0 +1,6 @@
+[ikey]
+name = "Ikey Doherty"
+role = "Travelling Engineer"
+links = [
+    { name = "github", path = "https://github.com/TravellingEngineer", icon = "github" }
+]
