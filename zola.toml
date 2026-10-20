@@ -1,0 +1,12 @@
+base_url = "https://travellingengineer.com"
+title = "TravellingEngineer"
+description = "Advanced system projects"
+default_language = "en"
+theme = "devlab-theme"
+compile_sass = true
+build_search_index = true
+generate_feeds = false
+
+[markdown.highlighting]
+light_theme = "github-light"
+dark_theme = "github-dark"

@@ -1,0 +1,3 @@
+[submodule "themes/devlab-theme"]
+	path = themes/devlab-theme
+	url = https://codeberg.org/RiPetitor/devlab-theme
