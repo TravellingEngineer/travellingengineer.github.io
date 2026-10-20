@@ -18,9 +18,16 @@ taxonomies = [
 light_theme = "github-light"
 dark_theme = "github-dark"
 
+[extra.devlab.collections.manual]
+section = "docs/_index.md"
+navigation = [
+    { section = "docs/barney/_index.md" }
+]
+
 [extra.devlab.navigation]
 links = [
     { name = "Home", path = "/" },
+    { name = "Docs", collection = "manual" },
     { name = "Blog", path = "/blog/" },
     { name = "Downloads", path = "/downloads/" }
 ]
