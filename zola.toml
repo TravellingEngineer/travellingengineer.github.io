@@ -21,7 +21,8 @@ dark_theme = "github-dark"
 [extra.devlab.navigation]
 links = [
     { name = "Home", path = "/" },
-    { name = "Blog", path = "/blog/" }
+    { name = "Blog", path = "/blog/" },
+    { name = "Downloads", path = "/downloads/" }
 ]
 
 [extra.devlab.brand]

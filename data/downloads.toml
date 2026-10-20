@@ -1,0 +1,46 @@
+mode = "catalog"
+title = "Project downloads"
+description = "Pick a download to see available releases"
+
+[featured]
+title = "Start here"
+description = "Most sought-after projects"
+
+[[channel]]
+id = "dev"
+label = "dev"
+description = "Volatile development builds"
+
+[[support]]
+id = "dev"
+label = "In development"
+tone = "warning"
+
+[[product]]
+id = "barney"
+featured = true
+name = "barney"
+summary = "An advanced Linux distribution composition tool building entirely reproducible images from scratch and handling the full bootstrap sequence."
+support = "dev"
+tags = [
+    "linux",
+    "open source",
+    "rust",
+    "tool",
+]
+url = "@/downloads/barney.md"
+docs_url = "https://github.com/TravellingEngineer/barney"
+vendor = "TravellingEngineer"
+
+[product.status]
+title = "Heads up"
+description = "This project is heavily in development right now!"
+items = [
+    { label = "Audience", value = "Advanced users only" },
+    { label = "Platform", value = "Linux host only"}
+]
+
+[[product.artifact]]
+channel = "dev"
+name = "Development"
+status = "development"
