@@ -11,14 +11,14 @@ eyebrow = "Travelling Engineer: Ikey Doherty"
 image = "images/hero.JPG"
 actions = [
     { label = "Explore the projects", path = "/manual/" },
-    { label = "Learn about Ikey", path = "/manual/" }
+    { label = "Learn about Ikey", path = "/about/ikey" }
 ]
 
 [[extra.devlab.home.blocks]]
 type = "features"
 items = [
-    { title = "Learn more", kicker = "Learning", description = "One", path = "/manual/" },
-    { title = "Latest articles", kicker = "Blog", description = "Read the latest project updates and announcements", path = "/blog/" },
+    { title = "Content journey", kicker = "Videos", description = "Follow the content journey over on YouTube. We're building an industry-beating tool without their backing or support, together.", path = "https://www.youtube.com/@ikey.doherty" },
+    { title = "Latest articles", kicker = "Blog", description = "Catch up with the latest announcements and blog posts, including any new releases" }
 ]
 [[extra.devlab.home.blocks]]
 type = "content"

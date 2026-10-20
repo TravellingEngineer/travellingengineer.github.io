@@ -18,6 +18,13 @@ taxonomies = [
 light_theme = "github-light"
 dark_theme = "github-dark"
 
+[extra.devlab.announcement]
+show = true
+key = "rough-website"
+label = "Rough website"
+message = "Website currently under construction please be patient"
+dismissible = false
+
 [extra.devlab.collections.manual]
 section = "docs/_index.md"
 navigation = [
@@ -27,6 +34,7 @@ navigation = [
 [extra.devlab.navigation]
 links = [
     { name = "Home", path = "/" },
+    { name = "About", path = "/about/" },
     { name = "Docs", collection = "manual" },
     { name = "Blog", path = "/blog/" },
     { name = "Downloads", path = "/downloads/" }
