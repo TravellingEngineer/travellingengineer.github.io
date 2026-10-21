@@ -1,6 +1,6 @@
 +++
 title = "First post"
-draft = false
+draft = true
 description = "First post for testing"
 date = 2026-10-22
 
