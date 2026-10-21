@@ -19,7 +19,7 @@ type = "features"
 items = [
     { title = "Content journey", kicker = "Videos", description = "Follow the content journey over on YouTube. We're building an industry-beating tool without their backing or support, together.", path = "https://www.youtube.com/@ikey.doherty" },
     { title = "Projects", kicker = "Learn", description = "Introducing the core tooling behind the entire mission", path = "/projects/" },
-    { title = "Latest articles", kicker = "Blog", description = "Catch up with the latest announcements and blog posts, including any new releases" }
+    { title = "Latest articles", kicker = "Blog", description = "Catch up with the latest announcements and blog posts, including any new releases", path = "/blog/" }
 ]
 
 [[extra.devlab.home.blocks]]
