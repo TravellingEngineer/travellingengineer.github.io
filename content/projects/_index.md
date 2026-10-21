@@ -9,7 +9,7 @@ page_template = "page.html"
 type = "features"
 items = [
     { title = "barney", kicker = "Core", description = "barney is a next generation automatic Linux system composition tool", path = "/projects/barney/" },
-    { title = "next", kicker = "next", description = "next..?" }
+    { title = "What's next?", kicker = "future", description = "More to come soon, revolving specifically around the Barney project" }
 
 ]
 +++

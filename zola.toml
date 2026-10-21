@@ -37,7 +37,8 @@ links = [
     { name = "About", path = "/about/" },
     { name = "Docs", collection = "manual" },
     { name = "Blog", path = "/blog/" },
-    { name = "Downloads", path = "/downloads/" }
+    { name = "Downloads", path = "/downloads/" },
+    { name = "Projects", path = "/projects/" }
 ]
 
 [extra.devlab.brand]
