@@ -48,6 +48,6 @@ footer_text = "Ikey Doherty aka the Travelling Engineer"
 [extra.devlab.footer]
 links_label = "useful links"
 links = [
-    { name = "github", path = "https://github.com/TravellingEngineer", icon = "github" },
+    { name = "github", path = "https://github.com/barney-build", icon = "github" },
     { name = "email", path = "mailto:travellingengineer@proton.me", icon = "email" }
 ]
